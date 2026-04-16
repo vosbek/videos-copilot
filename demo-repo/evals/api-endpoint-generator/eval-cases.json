@@ -1,0 +1,106 @@
+{
+  "skill": "api-endpoint-generator",
+  "description": "Eval cases for the API endpoint generator skill trigger accuracy",
+  "cases": [
+    {
+      "query": "Generate a new API endpoint for publishers with CRUD operations",
+      "should_trigger": true,
+      "category": "direct-request"
+    },
+    {
+      "query": "Add CRUD routes for categories following the games pattern",
+      "should_trigger": true,
+      "category": "direct-request"
+    },
+    {
+      "query": "Create an API for user profiles with authentication",
+      "should_trigger": true,
+      "category": "direct-request"
+    },
+    {
+      "query": "Scaffold a new REST endpoint for reviews",
+      "should_trigger": true,
+      "category": "direct-request"
+    },
+    {
+      "query": "I need a new resource endpoint for wishlists with full CRUD",
+      "should_trigger": true,
+      "category": "indirect-request"
+    },
+    {
+      "query": "Add a new route for managing tags on games",
+      "should_trigger": true,
+      "category": "indirect-request"
+    },
+    {
+      "query": "Create the backend API for a comments feature",
+      "should_trigger": true,
+      "category": "indirect-request"
+    },
+    {
+      "query": "Build out the Flask routes for a new notifications resource",
+      "should_trigger": true,
+      "category": "indirect-request"
+    },
+    {
+      "query": "Generate a model, routes, and tests for a donations endpoint",
+      "should_trigger": true,
+      "category": "specific-request"
+    },
+    {
+      "query": "Add a new endpoint following the existing games endpoint pattern",
+      "should_trigger": true,
+      "category": "pattern-reference"
+    },
+    {
+      "query": "Create REST API for managing user achievements",
+      "should_trigger": true,
+      "category": "direct-request"
+    },
+    {
+      "query": "Scaffold CRUD operations for a badges resource",
+      "should_trigger": true,
+      "category": "direct-request"
+    },
+    {
+      "query": "Fix the bug in the login page",
+      "should_trigger": false,
+      "category": "bug-fix"
+    },
+    {
+      "query": "Write unit tests for the game model",
+      "should_trigger": false,
+      "category": "testing"
+    },
+    {
+      "query": "Explain how Flask blueprints work",
+      "should_trigger": false,
+      "category": "explanation"
+    },
+    {
+      "query": "Refactor the games route to use async/await",
+      "should_trigger": false,
+      "category": "refactoring"
+    },
+    {
+      "query": "Add input validation to the existing games endpoint",
+      "should_trigger": false,
+      "category": "modification"
+    },
+    {
+      "query": "Update the frontend to show game categories",
+      "should_trigger": false,
+      "category": "frontend"
+    },
+    {
+      "query": "How do I deploy this Flask app to production?",
+      "should_trigger": false,
+      "category": "devops"
+    },
+    {
+      "query": "Add pagination to the existing games list endpoint",
+      "should_trigger": false,
+      "category": "modification"
+    }
+  ]
+}

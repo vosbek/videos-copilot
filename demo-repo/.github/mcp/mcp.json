@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "sqlite": {
+      "command": "mcp-server-sqlite",
+      "args": ["--db-path", "data/tailspin-toys.db"],
+      "description": "SQLite database access for the Tailspin Toys database",
+      "tools": [
+        "query",
+        "list_tables",
+        "describe_table"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "event": "postToolUse",
+    "pattern": "editFile",
+    "command": ".github/hooks/lint-on-edit.sh",
+    "description": "Auto-format files after every agent edit"
+  },
+  {
+    "event": "preToolUse",
+    "pattern": "editFile|createFile",
+    "command": ".github/hooks/block-protected.sh",
+    "description": "Block modifications to protected files"
+  },
+  {
+    "event": "postToolUse",
+    "pattern": "editFile",
+    "command": ".github/hooks/auto-test.sh",
+    "description": "Run tests when source files are modified"
+  }
+]
